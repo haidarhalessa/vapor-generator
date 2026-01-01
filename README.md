@@ -13,7 +13,7 @@ A CLI tool to scaffold Vapor components instantly.
 
 ### Method 1: Build from Source
 ```bash
-git clone [https://github.com/haidarhalessa/vapor-generator.git](https://github.com/haidarhalessa/vapor-generator.git)
+git clone https://github.com/haidarhalessa/vapor-generator.git VaporGenerator
 cd VaporGenerator
 swift build -c release
 cp .build/release/vaporgenerator /usr/local/bin/vgen
@@ -22,7 +22,7 @@ cp .build/release/vaporgenerator /usr/local/bin/vgen
 ### Method 2: Mint
 If you have Mint installed:
 ```bash
-mint install haidarhalessa/VaporGenerator
+mint install haidarhalessa/vapor-generator
 ```
 
 ## Usage
