@@ -17,20 +17,23 @@ git clone [https://github.com/haidarhalessa/vapor-generator.git](https://github.
 cd VaporGenerator
 swift build -c release
 cp .build/release/vaporgenerator /usr/local/bin/vgen
+```
 
 ### Method 2: Mint
 If you have Mint installed:
 ```bash
 mint install haidarhalessa/VaporGenerator
+```
 
-### Usage
+## Usage
 Navigate to your Vapor project root and run:
 ```bash
 vgen <ResourceName> <Field:Type>...
-
+```
 ### Example
 ```bash
 vgen Product title:string price:double isPublished:bool
+```
 
 This will create:
 - Sources/[YOUR-VAPOR-PROJECT-NAME]/Models/Product.swift
